@@ -367,15 +367,6 @@ public enum ChannelType {
 
 ### Mejores Prácticas para Credenciales
 
-#### ❌ NO hagas esto:
-
-```java
-// NUNCA hardcodees credenciales en el código
-MailgunEmailProvider.withApiKeyAndDomain("key-123456", "example.com");
-```
-
-#### ✅ Haz esto:
-
 **1. Variables de Entorno**
 
 ```java
